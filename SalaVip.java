@@ -1,6 +1,6 @@
-public class SalaVIP extends Sala {
+public class SalaVip extends Sala {
 
-    public SalaVIP(String id, int capacidad) {
+    public SalaVip(String id, int capacidad) {
         super(id, capacidad);
     }
 
