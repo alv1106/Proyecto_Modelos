@@ -4,13 +4,13 @@ public abstract class Sala {
     protected int capacidad;
     protected double recargo;
 
-    public Sala(String id, int capacidad, double recargo) {
+    public Sala(String id, int capacidad) {
         this.id = id;
         this.capacidad = capacidad;
-        this.recargo = recargo;
     }
 
-    public abstract String getCategoria();
+    public abstract String categoria();
+    public abstract double recargo();
 
     public String getId() {
         return id;
@@ -20,7 +20,5 @@ public abstract class Sala {
         return capacidad;
     }
 
-    public double getRecargo() {
-        return recargo;
-    }
+
 }
